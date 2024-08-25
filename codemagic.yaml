@@ -5,8 +5,8 @@ workflows:
     instance_type: mac_mini_m1
     environment:
       vars:
-        XCODE_WORKSPACE: "CodemagicSample.xcworkspace"
-        XCODE_SCHEME: "CodemagicSample"
+        XCODE_WORKSPACE: "swiftly.xcworkspace"
+        XCODE_SCHEME: "swiftly"
       xcode: latest # <-- set to specific version e.g. 14.3, 15.0 to avoid unexpected updates.
       cocoapods: default
     scripts:
